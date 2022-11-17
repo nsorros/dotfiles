@@ -5,6 +5,8 @@ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip
 unzip awscliv2.zip
 sudo ./aws/install
 
+pip install git+https://github.com/ivyleavedtoadflax/remote.py.git
+
 echo "" >> ~/.bashrc
 echo "# Direnv" >> ~/.bashrc
 echo 'eval "$(direnv hook bash)"' >> ~/.bashrc
