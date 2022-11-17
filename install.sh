@@ -1,6 +1,6 @@
-apt update
+sudo apt update
 
-apt install direnv
+sudo apt install direnv
 
 echo "# Direnv" >> ~/.bashrc
 echo 'eval "$(direnv hook bash)"' >> ~/.bashrc
